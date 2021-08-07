@@ -9,8 +9,39 @@
 </head>
 <body>
    <div id="container">
+    <header>
+        <nav>
+            <a href="#">Início</a> |
+            <a href="#">Cursos</a> |
+            <a href="#">Linguagens</a> | 
+        </nav>
+    </header>
 
-        
+    <div>
+
+        <form action="destino.html" method="GET" onsubmit="return validaForm()">
+            <fieldset>
+                <legend>Login</legend>
+                
+                <div>
+                    <label for="idTxtNm">Usuário</label>
+                    <input type="text" name="txtNm" id="idTxtNm" placeholder="Digite o nome de Usuário">
+                </div>
+                <div>
+                    <label for="idTxtPass">Senha</label>
+                    <input type="password" name="txtPass" id="idTxtPass" placeholder="Digite sua senha!">
+                </div>
+                <div>
+                    <input type="checkbox" name="chkValid" id="idChkValid"><label for="idChkValid">Manter conectado?</label>
+                </div>
+                <div>
+                    <input type="submit" value="LOGIN" >
+                </div>
+            </fieldset>
+            
+        </form>
+
+    </div>
 
    </div>
 </body>

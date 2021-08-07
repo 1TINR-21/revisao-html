@@ -1,0 +1,12 @@
+
+/*
+VALIDAÇÃO
+*/
+
+input:focus:invalid{
+    border: 4px solid #ff0000;   
+}
+
+/*
+VALIDAÇÃO
+*/
